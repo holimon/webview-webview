@@ -1,6 +1,7 @@
 package webview
 
 /*
+#cgo LDFLAGS: -Wl,--allow-multiple-definition
 #cgo linux openbsd freebsd CXXFLAGS: -DWEBVIEW_GTK -std=c++11
 #cgo linux openbsd freebsd pkg-config: gtk+-3.0 webkit2gtk-4.0
 
